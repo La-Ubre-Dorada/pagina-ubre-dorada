@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background: #bcb2f9;
+    height: 70px;
+}
+.ancho{
+    width: 80%; 
+    height: 70px;
+    background: #bcb2f9;
+    margin: auto;
+}
+.logo{
+    width: 30%;
+    height: 70px;
+    background: #bcb2f9;
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.logo p a{
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold ;
+    font-family: Locanita;
+
+}
+nav {
+    width: 70%;
+    height: 70px;
+    background: #bcb2f9;
+    float: left;
+    text-align: right;
+    padding-top: 24px ;
+    box-sizing: border-box;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 30px;
+    font-weight: bold ;
+    letter-spacing: 1px;
+    font-family: Locanita;
+}
+nav ul li a:hover{
+    color: #444;
+}
+@font-face{
+    font-family:Locanita ;
+    src: url(fuente/Locanita.ttf);
+}
+
+#footer{
+    background: #FCDE6E;
+    width: 100%;
+    height: auto;
+}
+#pie-footer{
+    background: #D1B45A;
+    width:100% ;
+    height: auto;
+}
+.titulo-footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+     top: 10px;
+}
+.span-subtitulo{
+    color:rgb(244, 246, 85);
+    font-weight: 500;
+}
+.contacto{
+    color: black;
+    font-size: 30px;
+    margin-top: 35px;
+    font-weight:  800px; ;
+    font-family:Locanita ;
+    src: url(fuente/Locanita.ttf);
+}
+.titulo-contacto{
+    color: black;
+}
+#localizacion{
+    color: yellow;
+    font-size: 25px;
+}
+.colonia {
+    color: black;
+    font-size: 20px;
+    margin: left 25px; ;
+    font-family:Locanita ;
+    src: url(fuente/Locanita.ttf);
+}
+.boton-siguenos{
+    background: black;
+    width: 45%;
+    height: 45px;
+    margin: auto;
+    text-decoration: none;
+}
+.siguenos{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    position:relative;
+    top: 10px;
+    font-family:Locanita ;
+    src: url(fuente/Locanita.ttf);
+    text-decoration: none;
+}
+#fondo-footer{
+    background: #FCDE6E;
+    width: 100%;
+    height: 50px;
+}
+.col-md-6{
+    position: relative;
+    margin:auto;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-md-6{
+    position: static;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 3px black;
+}
+.contactanos{
+    font-size: 50px;
+    color:  black;
+}
+.datos{
+    font-size: 30px;
+}
+.button{
+    position: center;
+}

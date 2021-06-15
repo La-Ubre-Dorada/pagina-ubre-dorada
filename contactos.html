@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="EstilosContactos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body background="pattern.png">
+    <header>
+        <div class="ancho">
+            <div class="logo">
+                <p><a href="index.html">La Ubre Dorada</a></p>
+            </div>
+            <nav>
+                <ul>
+                    <li> <a href="Nosotros.html">Nosotros</a></li>
+                    <li> <a href="Productos.html">Productos</a></li>
+                    <li> <a href="contactos.html">Contacto</a></li>
+                    <li> <a href="Promociones.html">Promociones</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="page-header">
+        <h2 class="aFont" style="text-align: center">
+        <span style="color:rgb(0, 0, 0)" class="contactanos" >Contáctanos</span>
+    </h2>
+    <br>
+    <br>
+    <!--Contact with Map-START-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <div class="well well-sm">
+                    <form class="form-horizontal" name="sentMessage" id="contactForm" novalidate>
+                        <fieldset>
+                            <legend class="text-center header">Contáctos</legend>
+                            <div class="form-group">
+                                <div class="col-md-10 col-md-offset-1">
+                                <input id="name" name="name" type="text" placeholder="nombre" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-10 col-md-offset-1">
+                                    <input id="lastname" name="name" type="text" placeholder="Apellido" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-10 col-md-offset-1">
+                                    <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="cold-md-10 col-md-offset-1">
+                                    <textarea class="form-control" id="message" name="message" placeholder="Escribe tu mensaje"
+                                    rows="7"></textarea>
+                                </div>
+                            </div>
+                            <br>
+                            <button type="submit" class="btn btn-primary btn-lg" class="button" >Enviar</button>
+                            <br>
+                            <br>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                    <div class="panel panel-info">
+                    <div class="text-center header"></div>
+                        <div class="panel-body text-center">
+                        <h4> Consultas </h4>
+                        <div class="datos"> 
+                    Juan-Perez Director de la empresa<br>
+                    70514434<br>
+                        <span style="color:blue"> JuanPerez@gmail.com </span>
+                        <br>
+                    Rebecca Navia - Director regional<br>
+                    70562422<br>
+                        <span style="color:blue"> RebeccaNavia@gmail.com </span> 
+                        <br>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </header>
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <p class="contacto">INSTAGRAM</p>
+                    <p class="titulo-contacto">SIGUENOS EN INSTAGRAM </p>
+                    <p> <img src="instagram.png" alt=""> </p>
+                    <span class="colonia">
+                        Puedes seguirnos en Instagram para estar al tanto de nuestros nuevos lanzamientos o mandar de
+                        sugerencia de algun sabor
+                    </span>
+                    <a href="https://www.instagram.com/?hl=es-la">
+                        <div class="boton-siguenos">
+                            <p class="siguenos">
+                                Siguenos
+                            </p>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+
+                    <p class="contacto">FACEBOOK</p>
+                    <p class="titulo-contacto"> No nos pierdas la pista en Facebook </p>
+                    <p> <img src="facebook.png" alt=""> </p>
+                    <span class="colonia">
+                        Puedes seguirnos en Facebook para estar al tanto de todo los servicios que tenemos para
+                        ofrecerte
+                    </span>
+                    <a href="https://es-la.facebook.com/">
+                        <div class="boton-siguenos">
+                            <p class="siguenos">
+                                Siguenos
+                            </p>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <p class="contacto">CONTACTO</p>
+                    <p class="titulo-contacto"> Nos encuentras en: </p>
+                    <p> <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d486366.9835217709!2d-63.29251157145798!3d-17.756788906734233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f1e81ca7c01a63%3A0x5c8b0a53a467611b!2sSanta%20Cruz%20de%20la%20Sierra!5e0!3m2!1ses!2sbo!4v1622394162382!5m2!1ses!2sbo"
+                            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe> </p>
+                    <span class="colonia">
+                        General Saavedra, Edif. Torres Cainco P. 2 Oficina 3 - Santa Cruz de la Sierra, Bolivia
+                    </span>
+                    <a
+                        href="https://www.google.com/maps?ll=-17.757643,-63.011634&z=8&t=m&hl=es&gl=BO&mapclient=embed&q=Santa+Cruz+de+la+Sierra">
+                        <div class="boton-siguenos">
+                            <p class="siguenos">
+                                Dirigirse
+                            </p>
+
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="fondo-footer"> </div>
+    <div id="pie-footer">
+        <div class="container">
+            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <p class="titulo-footer">
+                    La Ubre Dorada, Pagina web hecha por el grupo "G" <br>
+                    <span class="span-subtitulo"> Choquehuanca Clauida <br> Lavayen Carlos <br> Ponce Ricardo</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
